@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent label slave
     stages{
         stage('HELLO') {
         /* Let's make sure we have the repository cloned to our workspace */
